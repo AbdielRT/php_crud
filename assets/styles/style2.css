@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.button {
+  display: inline;
+  background-color: rgb(202, 233, 236);
+  border: none;
+  border-radius: 30px;
+  position: relative;
+  width: 125px;
+  height: 40px;
+  font-family: Maitree;
+  font-size: 15px;
+  margin: 10px;
+}
+
+div.button a {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 107, 110);
+  margin: 15px;
+}
+
+div#retourAccueil {
+  text-align: center;
+  padding: 3px;
+}
+
+h2 {
+  text-align: center;
+  padding: 25px;
+  font-family: Maitree;
+}
+
+div.img {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  margin: auto;
+}
+
+div.img img {
+  width: 90%;
+}
+
+img.icon {
+  width: 25px;
+}
+
+#errorPlaque,
+#errorChoix {
+  display: none;
+}
+
+#bienvenue,
+#deconnexion {
+  width: 400px;
+  text-align: center;
+  margin: auto;
+  font-family: Maitree;
+}
+
+.btn {
+  margin-top: 25px;
+  width: 49%;
+}
+
+#buttons {
+  display: flex;
+}
+
+span {
+  font-weight: bold;
+  font-size: larger;
+  color: rgb(0, 107, 110);
+}
+
+#tableauCars {
+  display: none;
+}
