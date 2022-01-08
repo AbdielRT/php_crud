@@ -1,7 +1,8 @@
 <?php
+include_once($_SERVER['DOCUMENT_ROOT'] . "/CarService/src//models/DAO/dataLog.php");
 
 try {
-		$bdd = new PDO('mysql:host=localhost;dbname=connexion', 'root', 'root');
+		$bdd = new PDO('mysql:host='. DB_HOST .';dbname='. DB_NAME, DB_USER, DB_PASS);
 }
 
 catch (PDOException $e) {
