@@ -48,7 +48,7 @@ if ($_SESSION['pseudo'] == trim($_GET['pseudo']))  {
 
 			<form method="POST">
 				<div class="row justify-content-center">
-					<div class="col-sm-12 col-lg-4 text-center">
+					<div class="col-sm-8 col-lg-4 text-center">
 						<div class="form-group">
 		  					<label class="col-form-label mt-4" for="inputDefault">Plaque Immatriculation</label>
 		 					<input type="text" class="form-control text-center" placeholder="AA-123-AA" id="plaque" name="plaque" required>
@@ -89,7 +89,7 @@ if ($_SESSION['pseudo'] == trim($_GET['pseudo']))  {
 							<button class="btn btn-lg btn-outline-primary disabled" id="btn2" type="submit" >Modifier</button>
 						</div>
 					</div>
-					<div class="col-sm-12 col-lg-4 text-center">
+					<div class="col-sm-8 col-lg-4 text-center">
 					<table class="table table-hover" id="tableauCars">
 					</table>
 					<span class="d-none" id="pasVoitures">Commencez à ajouter vos voitures</span>

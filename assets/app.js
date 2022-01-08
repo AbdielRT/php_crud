@@ -92,7 +92,6 @@ function insertCar(event) {
         setTimeout(function time() {
           document.querySelector("#messageYes").classList.add("d-none");
         }, 5000);
-        console.log("voiture ajoutée");
         displayCars();
         form.reset();
       }
