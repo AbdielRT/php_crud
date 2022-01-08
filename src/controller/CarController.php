@@ -6,7 +6,7 @@ class CarController{
     public function __construct()
     {
         Autoloader::register();
-        $this->carDao = new Car;
+        $this->carDao = new CarDao;
     }
 
     public function displayCars(){

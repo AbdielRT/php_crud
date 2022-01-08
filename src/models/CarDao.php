@@ -1,12 +1,12 @@
 <?php
 
 
-include_once($_SERVER['DOCUMENT_ROOT'] . "/CarService/src/models/DAO/CarDao.php");
+include_once($_SERVER['DOCUMENT_ROOT'] . "/CarService/src/models/DAO/Car.php");
 session_start();
 /**
  * Class Car
  */
-class Car extends CarDAO
+class CarDao extends Car
 {
 
     public function findAll()

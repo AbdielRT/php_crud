@@ -6,7 +6,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . "/CarService/src/models/DAO/DAO.php");
 /**
  * Class CarDAO
 */
-abstract class CarDAO extends EntityBase
+abstract class Car extends EntityBase
 {
     
    /**
