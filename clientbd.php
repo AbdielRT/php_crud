@@ -12,9 +12,8 @@ catch (PDOException $e) {
 
 //  Récupération de l'utilisateur et de son password hashé
 $pseudo = $_POST['pseudo'];
-$pseudoClient = $_POST['pseudo'];
 
-$req = $bdd->prepare("SELECT id_user, pseudo, password FROM membre WHERE pseudo = '$pseudoClient'");
+$req = $bdd->prepare("SELECT id_user, pseudo, password FROM membre WHERE pseudo = '$pseudo'");
 $req->execute(array(
     'pseudo' => $pseudo));
 $resultat = $req->fetch();

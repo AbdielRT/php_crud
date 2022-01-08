@@ -32,7 +32,7 @@ abstract class Car extends EntityBase
 
   /**
    * Protected variable
-   * @var varchar $password
+   * @var varchar $couleur
    */
   protected $couleur;
 
@@ -40,13 +40,20 @@ abstract class Car extends EntityBase
 
   public function setColor($couleur) {$this->couleur=$couleur;}
   
-  
+  /**
+   * Protected variable
+   * @var varchar $marque
+   */
   protected $marque;
   
   public function getBrand() {return $this->marque;}
 
   public function setBrand($marque) {$this->marque=$marque;}
   
+  /**
+   * Protected variable
+   * @var varchar $modele
+   */
   protected $modele;
   
   public function getModel() {return $this->modele;}
