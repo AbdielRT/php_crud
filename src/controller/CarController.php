@@ -73,7 +73,6 @@ class CarController{
 
     public function dupliPlate($plate){
         return ["status" => ($this->carDao->dupliPlate($plate))];
-        // return ["status" => ($this->carDao->dupliPlate($plate))];
     }
 }
 

@@ -25,7 +25,7 @@
 				<p>Connectez-vous pour accéder à votre espace utilisateur :</p>
 
 				<div class="button">
-					<a href="index.html">Connexion</a>
+					<a href="index.php">Connexion</a>
 				</div>
 			</div>
 

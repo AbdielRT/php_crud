@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-include_once($_SERVER['DOCUMENT_ROOT'] . "/CarService/src/models/DAO/Car.dao.php");
+include_once($_SERVER['DOCUMENT_ROOT'] . "/CarService/src/models/DAO/CarDao.php");
 /**
  * Class Car
  */
