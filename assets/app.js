@@ -104,7 +104,7 @@ function displayCars() {
     .then((data) => {
       if (data.status == "OK") {
         document.querySelector("#tableauCars").style.display = "block";
-        document.querySelector("#tableauCars").innerHTML = data.result;
+        document.querySelector("#tableauCars").innerHTML = data.table;
         if (data.cars.length > 0) {
           document.getElementById("pasVoitures").classList.add("d-none");
         } else {

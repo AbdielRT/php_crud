@@ -39,7 +39,7 @@ class CarController{
         $tableHTML .= '</tbody>
         </table>';
         
-        return ["status" => "OK", "result" => $tableHTML, "cars" => $cars];
+        return ["status" => "OK", "table" => $tableHTML, "cars" => $cars];
 
     }
 
